@@ -446,11 +446,11 @@
 
 [[projects]]
   digest = "1:fc802427be7eeceff706d526578e4ef4588520bda794ea32523983dc13e94b78"
-  name = "gopkg.in/resty.v0"
+  name = "gopkg.in/resty.v1"
   packages = ["."]
   pruneopts = "UT"
   revision = "2e0c2310ba20c7edb6162ea2f6c0d5bba2e5e56d"
-  version = "v0.10"
+  version = "v1.12.0"
 
 [[projects]]
   digest = "1:01d3c3dfb7ef9da24cd00cbd5b9e2c147fa7a3f44a83028bc737da9cac7ed60b"
@@ -517,13 +517,13 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/Fitbit/smartling/di",
-    "github.com/Fitbit/smartling/logger",
-    "github.com/Fitbit/smartling/model",
-    "github.com/Fitbit/smartling/repository",
-    "github.com/Fitbit/smartling/rest",
-    "github.com/Fitbit/smartling/service",
-    "github.com/Fitbit/smartling/test",
+    "di",
+    "logger",
+    "model",
+    "repository",
+    "rest",
+    "service",
+    "test",
     "github.com/Masterminds/sprig",
     "github.com/facebookgo/inject",
     "github.com/fatih/color",
@@ -683,7 +683,7 @@
     "golang.org/x/tools/txtar",
     "golang.org/x/xerrors",
     "gopkg.in/go-playground/pool.v3",
-    "gopkg.in/resty.v0",
+    "gopkg.in/resty.v1",
     "gopkg.in/urfave/cli.v1",
     "gopkg.in/yaml.v2",
   ]

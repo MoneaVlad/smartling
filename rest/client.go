@@ -9,7 +9,7 @@
 // See the License for the specific language governing permissions and limitations under the License.
 package rest
 
-import "gopkg.in/resty.v0"
+import "gopkg.in/resty.v1"
 
 func Client(debug bool) *resty.Client {
 	return resty.New().SetHostURL(BaseURL).SetDebug(debug)

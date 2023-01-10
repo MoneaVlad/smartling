@@ -16,7 +16,7 @@ import (
 	"github.com/Fitbit/smartling/rest"
 	"github.com/google/go-querystring/query"
 	"gopkg.in/go-playground/pool.v3"
-	"gopkg.in/resty.v0"
+	"gopkg.in/resty.v1"
 	"io/ioutil"
 	"net/url"
 	"os"

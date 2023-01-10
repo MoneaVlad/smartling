@@ -12,7 +12,7 @@ package service
 import (
 	"github.com/Fitbit/smartling/model"
 	"github.com/Fitbit/smartling/rest"
-	"gopkg.in/resty.v0"
+	"gopkg.in/resty.v1"
 )
 
 type DefaultAuthService struct {

@@ -10,7 +10,7 @@
 package rest
 
 import (
-	"gopkg.in/resty.v0"
+	"gopkg.in/resty.v1"
 )
 
 func Result(resp *resty.Response, data interface{}) (err error) {
